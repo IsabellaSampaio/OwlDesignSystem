@@ -1,4 +1,4 @@
-package isa.dev.designsystem.component.text
+package isa.dev.designsystem.component.button
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background
