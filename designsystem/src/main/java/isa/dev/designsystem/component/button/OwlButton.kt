@@ -25,7 +25,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import isa.dev.designsystem.theme.Black
-import isa.dev.designsystem.theme.NavyBlue
 import isa.dev.designsystem.theme.OwlTheme
 import isa.dev.designsystem.theme.White
 
