@@ -1,7 +1,9 @@
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.mavenPublish)
 }
 
 android {
@@ -51,4 +53,18 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     debugImplementation(libs.androidx.ui.tooling)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "isa.dev.designsystem"
+            artifactId = "owl-design-system"
+            version = "b1.0.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
