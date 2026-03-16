@@ -1,3 +1,3 @@
 # 🦉OwlDesignSystem 
 
-Building my own design system built to help me organize the UI components of my personal projects 
+Building my own design system from scratch to help organize and create better UI and UX for users
