@@ -28,10 +28,10 @@ replay_pid*
 .kotlin/
 =======
 *.iml
-gradle
-.gradle
-.idea
-/gradle
+*gradle
+*.gradle
+*.idea
+*/gradle
 /local.properties
 /.idea/caches
 /.idea/libraries
