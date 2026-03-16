@@ -28,8 +28,8 @@ replay_pid*
 .kotlin/
 =======
 *.iml
-/.idea
-/.gradle
+*/.idea
+*/.gradle
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -42,14 +42,14 @@ replay_pid*
 /captures
 .externalNativeBuild
 .cxx
-gradle
-.idea
+*gradle
+*.idea
 gradlew.bat
 gradlew
 gradle.properties
 build.gradle.kts
 settings.gradle.kts
 local.properties
-.gitignore
-gitignore
+*.gitignore
+*gitignore
 >>>>>>> 1ac1721 (initial commit)
